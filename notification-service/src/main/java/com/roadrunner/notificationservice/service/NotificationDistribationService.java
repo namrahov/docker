@@ -1,6 +1,6 @@
 package com.roadrunner.notificationservice.service;
 
-import com.roadrunner.client.messaging.TicketNotification;
+import com.roadrunner.notificationservice.messaging.TicketNotification;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;

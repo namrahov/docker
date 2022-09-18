@@ -1,4 +1,4 @@
-package com.roadrunner.client.messaging;
+package com.roadrunner.notificationservice.messaging;
 
 
 public class TicketNotification {

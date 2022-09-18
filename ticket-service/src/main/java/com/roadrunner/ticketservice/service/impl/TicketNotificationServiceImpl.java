@@ -1,7 +1,7 @@
 package com.roadrunner.ticketservice.service.impl;
 
 
-import com.roadrunner.client.messaging.TicketNotification;
+import com.roadrunner.ticketservice.messaging.TicketNotification;
 import com.roadrunner.ticketservice.model.Ticket;
 import com.roadrunner.ticketservice.service.TicketNotificationService;
 import org.springframework.beans.factory.annotation.Autowired;

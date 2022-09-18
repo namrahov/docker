@@ -1,4 +1,4 @@
-package com.roadrunner.client.contract;
+package com.roadrunner.accountservice.dto;
 
 
 
@@ -17,7 +17,7 @@ public class AccountDto {
         return id;
     }
 
-    public AccountDto(String id, String username,  String name, String email) {
+    public AccountDto(String id, String username, String name, String email) {
         this.id = id;
         this.username = username;
         this.name = name;

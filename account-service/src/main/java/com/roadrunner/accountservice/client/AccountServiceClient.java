@@ -1,6 +1,6 @@
-package com.roadrunner.client;
+package com.roadrunner.accountservice.client;
 
-import com.roadrunner.client.contract.AccountDto;
+import com.roadrunner.accountservice.dto.AccountDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;

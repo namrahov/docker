@@ -1,13 +1,11 @@
 package com.roadrunner.accountservice.service.impl;
 
+import com.roadrunner.accountservice.dto.AccountDto;
 import com.roadrunner.accountservice.entity.Account;
 import com.roadrunner.accountservice.repo.AccountRepository;
 import com.roadrunner.accountservice.service.AccountService;
-import com.roadrunner.client.contract.AccountDto;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.Assert;

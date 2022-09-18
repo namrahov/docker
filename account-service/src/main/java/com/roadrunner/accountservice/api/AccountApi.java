@@ -1,9 +1,8 @@
 package com.roadrunner.accountservice.api;
 
 
+import com.roadrunner.accountservice.dto.AccountDto;
 import com.roadrunner.accountservice.service.AccountService;
-import com.roadrunner.accountservice.service.impl.AccountServiceImpl;
-import com.roadrunner.client.contract.AccountDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

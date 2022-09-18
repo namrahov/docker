@@ -1,7 +1,7 @@
 package com.roadrunner.accountservice.service;
 
-import com.roadrunner.client.contract.AccountDto;
 
+import com.roadrunner.accountservice.dto.AccountDto;
 
 public interface AccountService {
     AccountDto get(String id);

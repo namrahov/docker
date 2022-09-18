@@ -1,8 +1,7 @@
 package com.roadrunner.ticketservice.service.impl;
 
-
-import com.roadrunner.client.AccountServiceClient;
-import com.roadrunner.client.contract.AccountDto;
+import com.roadrunner.ticketservice.client.AccountServiceClient;
+import com.roadrunner.ticketservice.dto.AccountDto;
 import com.roadrunner.ticketservice.dto.TicketDto;
 import com.roadrunner.ticketservice.model.PriorityType;
 import com.roadrunner.ticketservice.model.Ticket;
